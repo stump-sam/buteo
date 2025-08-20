@@ -145,14 +145,10 @@ void run_tests()
 }
 
 
-#include <boost/test/included/unit_test.hpp>
-
 
 int main(int argc, char* argv[])
 {
-	integer N = 300;
-	uniform01_generator g;
-	std::cout << random_composition(g, N, 10) << std::endl;
+	run_tests();
 	return 0;
 }
 
